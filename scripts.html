@@ -1,10 +1,31 @@
 <html lang="en">
 <head>
+    <!--        Head Tags:
+                meta(website date) - title(title of the website)
+                base(images/videos path) - script(read js)
+                style(read CSS) - link(change tab icon, refer to stylesheet)   -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title </title>
+    <meta name="description" content="This is the Application of Learn HTML
+    Course provided by maharatech website">
+    <meta name="Author" content="Abdelhamid Khamis">
+
+
+    <title>Maharatech Course</title>
+    <base href="maharatech-front-end-development">
+    <link rel="icon" href="playstore.png">
+
+    <!--
+    <script>alert("this is the Application of Learn HTML course provided by maharatech website") </script>   
+    -->
+
+    <style>h1{color: #d1e2e2;}</style>
+    <style>h6{color: #d1e2e2;}</style>
+    <style>p{color: blue;}</style>
+
 </head>
-<body>
+
+<body bgcolor="#3468eb" link="#fc03db" alink="#a103fc" vlink="#2403fc">
     <!-- Body Tags: 
             Headings, Text, Lists, Links, 
             Images, Objects, Tables, Forms -->
@@ -18,7 +39,7 @@
     <!--    2-Text:
                 Sizing, formatting(color, font type), 
                 Layout(bold, italic, underline)-->
-    <font size="7" color="#ff0000" face="Arial">
+    <font size="7" color="#d1e2e2" face="Timesnewroman">
         <b>
             <i>
                 <u>The largerst font is 7</u>
@@ -28,21 +49,29 @@
     <!-- font is a semi block element - bold is an inline element-->
     <!-- Red Hexadecimal type: rgb - ff the darkest
                                          00 the lighest-->
-    <hr>
+    <hr color="yellow">
+    
+    
+
+
+
+
+
+
+
+
     <!--    2-Text:
                 Breaking Line & Separators,
                 Whitespaces & Special Chars-->
     
-
-    <hr>
-    
     <pre>
-        hi          i am   medo
+hi                          i am                medo
     </pre>
-    <br>
-
-    Hi &nbsp &nbsp Iam medo and i am &gt Nada;
     <hr>
+
+    Hi &nbsp &nbsp Iam medo and my age is &gt Nada's age;
+    <hr>
+
     <center>center</center>
 
     <div align="right">مهندس انتاج</div>
@@ -51,7 +80,13 @@
 
     <span>inline elements</span>
 
-    <hr>
+    <hr color="yellow">
+    
+
+
+
+
+
     <!--    3- Lists:
                 <ul> - unordered list
                 <ol> - ordered list
@@ -81,6 +116,15 @@
             car has 4 wheels
         </dd>
     </dl>
+    <hr color="yellow">
+
+
+
+
+
+
+
+
 
     <!--    4- Links:
                 File, Anchor, Email-->
@@ -137,17 +181,40 @@
     <!--        5-Images      -->
     <img src="playstore.png" alt="diamond picture" align="right" width="100px" height=""><br>
     <img src="https://avatars1.githubusercontent.com/u/53490154?s=460&u=f258b3daecdca57c916ece9acb0fb8c29d6cd0f0&v=4" alt="My Github avatar" width="100"><br><br>
+    <hr color="yellow">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
     <!--        6-Objects      -->
-    <iframe src="https://www.masrawy.com" frameborder="0" width="700" height="800" scrolling="yes"></iframe> <br> <br>
+    <!--<iframe src="https://www.masrawy.com" frameborder="0" width="700" height="800" scrolling="yes"></iframe> <br> <br>-->
 
     <iframe width="700" height="400" src="https://www.youtube.com/embed/hMJXrpn8c8Y" frameborder="5" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.945186335794!2d29.744919463992133!3d31.08345166826887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5937e1f01485f%3A0x883cdf21c72786c!2sAl-Ajmi%20Higher%20Institute%20of%20Management%20Sciences!5e0!3m2!1sen!2seg!4v1598497827077!5m2!1sen!2seg" width="700" height="400" frameborder="1" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
- 
-    
+    <hr color="yellow"> 
+  
+
+
+
+
+
+
+
+
+
+
 
     <!--        7- Tables:
                     caption(Table title) - Header - Body - Footer      -->
@@ -217,11 +284,24 @@
                 
             </tbody>
         </table>
-
+        <hr color="yellow">
 
 
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+        
     <!--        8- Forms:
                     <input> Textbox - Password - Hidden - Checkbox - 
                     Radio button(m or f) - Button - Submit - Reset - 
@@ -229,36 +309,55 @@
                     
                     Dropdown List - Text Area(large textbox)     -->
 
+    <form method="Post" action="page2.html">
 
-        Name <input type="text" value="What's on your mind?!"><br>
-        Password <input type="password" name="name1" id="password1" value="enter your password">
+        Name <input type="text" name="user_name"><br>
+        Password <input type="password" name="user_pass" id="password1" value="enter your password">
 
-        <input type="hidden" name="x" value="5"><br>
+        <input type="hidden" name="hidden" value="5"><br>
         What's Your Favourite Drink? <br>
-            <input type="checkbox">Tea<br>
-            <input type="checkbox">Coffee<br>
-            <input type="checkbox">Milk<br>
+            <input type="checkbox" name="ch_tea" value="tea">Tea<br>
+            <input type="checkbox" name="ch_coffee" value="coffee">Coffee<br>
+            <input type="checkbox" name="ch_milk" value="milk">Milk<br>
 
 
         Gender? <br>
-            <input type="radio" name="radioGender">Male<br>
-            <input type="radio" name="radioGender">Female<br>
+            <input type="radio" name="radioGender" value="male">Male<br>
+            <input type="radio" name="radioGender" value="female">Female<br>
             
         Marital Status? <br>
-            <input type="radio" name="radioStatus">Single<br>
-            <input type="radio" name="radioStatus">Married<br>
-            <input type="radio" name="radioStatus" id="divorced">Divorced<br>
+            <input type="radio" name="radioStatus" value="single">Single<br>
+            <input type="radio" name="radioStatus" value="married">Married<br>
+            <input type="radio" name="radioStatus" id="divorced" value="divorced">Divorced<br>
 
+        
+        
+
+
+        <textarea name="text_area" id="text_area1" cols="80" rows="10"></textarea><br>
+
+        Favourite Team <select name="" id="">
+            <option name="dropdown_favteam" value="ahly">Al-Ahly</option>
+            <option name="dropdown_favteam" value="zamalek">El-Zamalek</option>
+        </select><br><br>
+
+        <input type="file" name="" id=""><br>
         <input type="button" value="Ok">
         <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+        <input type="reset" value="my Reset">
         <input type="image" src="https://www.baldwinpl.org/wp-content/uploads/2018/04/Submit-Button-Forms.jpg" alt="submit button" width="80"><br>
-        <input type="file" name="" id="">
+        
+
+    </form>
+        
+
+
+    <!--Body Attributes:
+                 bgColor="red" - background="imageUrl"- 
+                 link(before click) -alink(while hovering) - vlink(visited link) -->
 
 
 
 
-
-
-        </body>
+    </body>
 </html>
