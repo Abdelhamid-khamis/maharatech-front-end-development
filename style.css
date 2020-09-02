@@ -1,0 +1,87 @@
+/*
+                        Syntax 
+
+selector {
+    property: value;
+    property2: value2;
+}
+
+body{
+    color:navy; 
+}*/
+
+
+/*
+        Simple Selectors
+
+Element Selector    [tagname{property:value;}]:
+        Tag name selector
+    <style>
+        h1 {
+            color: #d1e2e2;
+        }
+    </style>
+
+
+Class Selector  [.classname]:
+        .yellow_data {
+            color: yellow;
+        }
+
+
+ID Selector [#ID name]:
+        #id_selector{
+            color: crimson;
+        }
+
+Multiple Selectors:
+        h1,h2,h3{
+            color:red;
+        }
+
+combinator selectors:
+    div p           paragraphs inside divs      (hatly tagat el p elly gowa el div)
+    div > p         all p tags, one level deep in div   (direct child - aboha elly 3la tool fo2ha div)
+    div + p         p tags immediately after div    (single p b3d ma div te5ls)
+    div ~ p         p tags preceded by div          (ay p b3d ma div te5ls)
+
+
+    
+        */
+
+h1 {
+    color: #d1e2e2;
+}
+
+h2{
+    color: brown;
+}
+
+h6 {
+    color: #d1e2e2;
+}
+
+h4 {
+    color: chocolate;
+}
+
+p {
+    color: blue;
+}
+
+
+body {
+    background-color: darkgray;
+}
+
+.yellow_data {
+    color: yellow;
+}
+
+#id_selector{
+    color: crimson;
+}
+
+div > p{
+    color:red;
+}
