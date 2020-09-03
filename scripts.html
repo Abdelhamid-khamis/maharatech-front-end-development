@@ -25,14 +25,14 @@
             color: #d1e2e2;
         }
         
-        h2{
+        h2 {
             color: brown;
         }
-
+        
         h6 {
             color: #d1e2e2;
         }
-
+        
         h4 {
             color: chocolate;
         }
@@ -41,7 +41,6 @@
             color: blue;
         }
         
-        
         body {
             background-color: darkgray;
         }
@@ -49,19 +48,19 @@
         .yellow_data {
             color: yellow;
         }
-
-        #id_selector{
+        
+        #id_selector {
             color: crimson;
         }
-
-        *{  /*Universal selector*/
+        
+        * {
+            /*Universal selector*/
             color: black;
         }
-
-
     </style>
 
-    <link rel="stylesheet" href="style.css"> <!--external style(Recommended)-->
+    <link rel="stylesheet" href="style.css">
+    <!--external style(Recommended)-->
 
 
 </head>
@@ -75,7 +74,8 @@
     <!--        1-Headings      -->
     <h1>Heading 1</h1>
 
-    Specifity Hierarachy in CSS:<ol type="I">
+    Specifity Hierarachy in CSS:
+    <ol type="I">
         <li>inline selector</li>
         <li>ID Selector</li>
         <li>Class Selector</li>
@@ -85,7 +85,7 @@
     <h2 style="color:darkred">[1- inline selector] style="color:darkred"</h2>
     <h2 id="id_selector">[2- ID Selector] id="id_selector"</h2>
     <h3 class="yellow_data">[3- Class selector] class=" yellow data"</h3>
-    <h4>[4- Element Selector]   h4{color: chocolate;}</h4>
+    <h4>[4- Element Selector] h4{color: chocolate;}</h4>
 
     <h6>Heading 6</h6>
 
@@ -375,7 +375,7 @@ hi                          i am                medo
 
     <form method="Post" action="page2.html">
 
-        Name <input type="text" name="user_name"><br> Password <input type="password" name="user_pass" id="password1" value="enter your password">
+        Name <input type="text" name="user_name" required><br> Password <input type="password" name="user_pass" id="password1" value="enter your password">
 
         <input type="hidden" name="hidden" value="5"><br> What's Your Favourite Drink? <br>
         <input type="checkbox" name="ch_tea" value="tea">Tea<br>
@@ -434,7 +434,7 @@ hi                          i am                medo
             </p>
         </div>
 
-        
+
 
         <p>p6</p>
     </div>
